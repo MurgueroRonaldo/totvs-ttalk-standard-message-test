@@ -90,6 +90,7 @@
 							},
                             {
                                 "product": "DATASUL",
+				"field": "ESTABIL_FUNC.CDN_EMPRESA | ESTABIL_FUNC.CDN_ESTAB | ESTABIL_FUNC.CDN_FUNCIONARIO | ESTABIL_FUNC.CDN_MOTIV_ESTABIL_FUNC | ESTABIL_FUNC.DAT_INIC_ESTABIL"
                                 "available": true,
                                 "field": "",
                                 "type": "string",
@@ -128,7 +129,15 @@
 							"type": "string",
 							"required": true,
 							"canUpdate": false
-						}
+						},
+                            {
+                                "product": "DATASUL",
+				"field": "ESTABIL_FUNC.CDN_EMPRESA"
+                                "available": true,
+                                "field": "",
+                                "type": "string",
+                                "required": true
+                            }
 					]
 				},
 				"branchId": {
@@ -152,7 +161,15 @@
 							"type": "string",
 							"available": true,
 							"canUpdate": false
-						}
+						},
+                            {
+                                "product": "DATASUL",
+				"field": "ESTABIL_FUNC.CDN_ESTAB"
+                                "available": true,
+                                "field": "",
+                                "type": "string",
+                                "required": true
+                            }
 					]
 				},
 				"employeeId": {
@@ -175,7 +192,15 @@
 							"type": "varchar",
 							"available": true,
 							"canUpdate": false
-						}
+						},
+                            {
+                                "product": "DATASUL",
+				"field": "ESTABIL_FUNC.CDN_FUNCIONARIO"
+                                "available": true,
+                                "field": "",
+                                "type": "string",
+                                "required": true
+                            }
 					]
 				},
 				"startDate": {
@@ -199,7 +224,15 @@
 							"type": "date",
 							"available": true,
 							"canUpdate":  true
-						}
+						},
+                            {
+                                "product": "DATASUL",
+				"field": "ESTABIL_FUNC.DAT_INIC_ESTABIL"
+                                "available": true,
+                                "field": "",
+                                "type": "date",
+                                "required": true
+                            }
 					]
 				},
 				"endDate": {
@@ -224,6 +257,15 @@
 							"available": true,
 							"canUpdate": true
 						}
+						,
+                            {
+                                "product": "DATASUL",
+				"field": "ESTABIL_FUNC.DAT_TERM_ESTABIL"
+                                "available": true,
+                                "field": "",
+                                "type": "date",
+                                "required": true
+                            }
 					]
 				},
 				"stabilityCode": {
@@ -246,7 +288,15 @@
 							"type": "varchar",
 							"available": true,
 							"canUpdate": true
-						}
+						},
+                            {
+                                "product": "DATASUL",
+				"field": "ESTABIL_FUNC.CDN_MOTIV_ESTABIL_FUNC"
+                                "available": true,
+                                "field": "",
+                                "type": "string",
+                                "required": true
+                            }
 					]
 				}
             }
